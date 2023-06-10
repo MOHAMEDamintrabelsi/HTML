@@ -1,31 +1,97 @@
+body{
+    background-color: black;
+}
+
+h3{
+    color: aliceblue;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.header{
+    margin-left: 370px;
+    margin-right: 370px;
+    margin-bottom: 50px;
+    font-style: italic;
+    font-size: 60px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: darkolivegreen;
+    text-align: center;
+    background-color: black;
+    color: rgba(250, 247, 57, 0.692);
+}
+
 h1{
+    margin-left: 250px;
+    margin-right: 250px;
     border-style: solid ;
-    border-color: rgb(105, 0, 0);
+    border-color:white;
+    border-radius: 20px;
     text-align: center;
     background-color: rgb(0, 0, 0);
     color: darkred;
-    border-style: dashed;
 }
 
 li{
+    font-family: 'Roboto';font-size: 22px;
+    display: inline;
+    padding: 10px;
+    margin-left: 90px;
+    margin-bottom: 70px;
+    background-color: darkolivegreen;
     color: darkred;
     height: 50px;
     width: 150px;
     border-style: solid;
     text-align: center;
+    border-radius: 20px;
     border-color: rgb(0, 0, 0);
     font-size: 30px;
-    background-color: rgb(255, 255, 255);
     
 }
 
+h5{
+    display: inline-table;
+    margin-right: 80px;
+    margin-left: 150px;
+}
+
+.content{
+    background-color: rgb(61, 5, 5);
+    margin-right: 580px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+p{
+    font-size: larger;
+    font-style: italic;
+    margin-right: 40px;
+    padding-left: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 10px solid;
+    border-radius: 20px;
+    border-color: black;
+    color: rgb(0, 0, 0);
+
+}
+
 h2{
-    color: darkred;
+    color: darkolivegreen;
     font-size: 50px;
     text-decoration: underline;
 }
 
 button{
-    color: black;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
     background-color: darkred;
+    display: inline-block;
+    padding: 15px;
+}
+
+footer{
+    color: aliceblue;
+    text-align: center;
 }
